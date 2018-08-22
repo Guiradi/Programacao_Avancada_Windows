@@ -1,4 +1,4 @@
-program ConverteRTF;
+program IMC;
 
 uses
   Forms,
@@ -8,6 +8,7 @@ uses
 
 begin
   Application.Initialize;
+  Application.Title := 'Índice de massa corpórea';
   Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.
