@@ -1,22 +1,24 @@
 [Closed Files]
-File_0=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Win\ShellAPI.pas',0,1,612,1,665,0,0
-File_1=SourceModule,'C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas',0,1,28,14,49,1,0
-File_2=SourceModule,'C:\PAW\Teste\Unit1.pas',0,1,1,45,13,0,0
-File_3=SourceModule,'c:\program files (x86)\borland\delphi7\source\vcl\Dialogs.pas',0,1,2106,1,2122,0,0
-File_4=SourceModule,'C:\PAW\Teste\Unit1.dfm',0,1,1,1,1,0,0
+File_0=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\3-IMC-Forma-WideString\Principal.pas',0,1,45,31,89,1,0
+File_1=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas',0,1,145,27,160,1,0
+File_2=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Win\ShellAPI.pas',0,1,612,1,665,0,0
+File_3=SourceModule,'C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas',0,1,28,14,49,1,0
+File_4=SourceModule,'C:\PAW\Teste\Unit1.pas',0,1,1,45,13,0,0
+File_5=SourceModule,'c:\program files (x86)\borland\delphi7\source\vcl\Dialogs.pas',0,1,2106,1,2122,0,0
+File_6=SourceModule,'C:\PAW\Teste\Unit1.dfm',0,1,1,1,1,0,0
 
 [Modules]
-Module0=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas
-Module1=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\IMC.dpr
+Module0=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\Principal.pas
+Module1=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\IMC.dpr
 Count=2
 EditWindowCount=1
 
-[C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas]
+[C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\Principal.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\IMC.dpr]
+[C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\IMC.dpr]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -49,20 +51,20 @@ LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
+BottomPanelData=00000400010000000B0000004D6573736167655669657700000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
 
 [View0]
-Module=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\IMC.dpr
-CursorX=9
-CursorY=13
+Module=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\IMC.dpr
+CursorX=35
+CursorY=16
 TopLine=1
 LeftCol=1
 
 [View1]
-Module=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas
-CursorX=27
-CursorY=160
-TopLine=145
+Module=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\Principal.pas
+CursorX=19
+CursorY=102
+TopLine=79
 LeftCol=1
 
 [Watches]
@@ -135,7 +137,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=Enabled
+SelectedItem=Name
 ExpandedItems=
 HiddenCategories=
 
@@ -175,13 +177,13 @@ Dockable=1
 Create=1
 Visible=0
 State=0
-Left=-53
-Top=-510
-Width=443
+Left=12
+Top=0
+Width=1102
 Height=85
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=443
+ClientWidth=1102
 ClientHeight=85
 TBDockHeight=85
 LRDockWidth=443

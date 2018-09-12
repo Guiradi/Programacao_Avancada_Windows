@@ -1,0 +1,4 @@
+Linha 1 com texto longo, que parece que excede uma linha, mas é apenas uma linha.
+Linha 2 com texto longo, que parece que excede uma linha, mas é apenas uma linha.
+
+Linha 4 com texto longo, que parece que excede uma linha, mas é apenas uma linha.

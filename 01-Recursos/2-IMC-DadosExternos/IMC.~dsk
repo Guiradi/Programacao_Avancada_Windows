@@ -135,7 +135,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=Enabled
+SelectedItem=Caption
 ExpandedItems=
 HiddenCategories=
 

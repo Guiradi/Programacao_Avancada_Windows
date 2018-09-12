@@ -1,0 +1,142 @@
+object Form1: TForm1
+  Left = 656
+  Top = 255
+  Width = 493
+  Height = 316
+  Caption = 'Exemplo de Menu'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnResize = FormResize
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 477
+    Height = 238
+    Align = alClient
+    TabOrder = 0
+    OnChange = Memo1Change
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 238
+    Width = 477
+    Height = 19
+    Panels = <
+      item
+        Width = 175
+      end
+      item
+        Width = 175
+      end
+      item
+        Width = 0
+      end>
+  end
+  object MainMenu1: TMainMenu
+    Left = 352
+    Top = 112
+    object Arquivos1: TMenuItem
+      Caption = '&Arquivos'
+      OnClick = Arquivos1Click
+      object Abrir1: TMenuItem
+        Caption = '&Abrir'
+        OnClick = Abrir1Click
+      end
+      object Salvar1: TMenuItem
+        Caption = '&Salvar'
+        OnClick = Salvar1Click
+      end
+      object Salvarcomo1: TMenuItem
+        Caption = 'Salvar &como'
+        OnClick = Salvarcomo1Click
+      end
+      object Fechar1: TMenuItem
+        Caption = '&Fechar'
+        OnClick = Fechar1Click
+      end
+    end
+    object Editar1: TMenuItem
+      Caption = '&Editar'
+      object Item11: TMenuItem
+        Caption = 'Item 1'
+        RadioItem = True
+        OnClick = Item11Click
+      end
+      object Item21: TMenuItem
+        Caption = 'Item 2'
+        Checked = True
+        RadioItem = True
+        OnClick = Item21Click
+      end
+      object Item31: TMenuItem
+        Caption = 'Item 3'
+        RadioItem = True
+        OnClick = Item31Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Item41: TMenuItem
+        Caption = 'Item 4'
+        OnClick = Item41Click
+      end
+      object Item51: TMenuItem
+        Caption = 'Item 5'
+      end
+      object Item61: TMenuItem
+        Caption = 'Item 6'
+      end
+    end
+    object Ajuda1: TMenuItem
+      Caption = 'Aj&uda'
+      object Ajuda2: TMenuItem
+        Caption = '&Ajuda'
+      end
+      object Sobre1: TMenuItem
+        Caption = '&Sobre'
+      end
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 400
+    Top = 112
+    object Contarcaracteres1: TMenuItem
+      Caption = 'Contar caracteres'
+    end
+    object Contarpalavras1: TMenuItem
+      Caption = 'Contar palavras'
+    end
+    object Contarlinhas1: TMenuItem
+      Caption = 'Contar linhas'
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = 'txt'
+    Filter = 'Arquivos de texto|*.txt|Todos os arquivos|*.*'
+    InitialDir = '.'
+    Left = 352
+    Top = 152
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = 'txt'
+    Filter = 'Arquivo de texto|*.txt|Todos os arquivos|*.*'
+    InitialDir = '.'
+    Left = 400
+    Top = 152
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 352
+    Top = 192
+  end
+end

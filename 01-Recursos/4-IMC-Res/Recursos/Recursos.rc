@@ -1,0 +1,12 @@
+; bmp
+1 bmp "Boneco.bmp"
+
+; rtf
+1 rtf "IMC-1.rtf"
+2 rtf "IMC-2.rtf"
+3 rtf "IMC-3.rtf"
+4 rtf "IMC-4.rtf"
+5 rtf "IMC-5.rtf"
+6 rtf "IMC-6.rtf"
+7 rtf "IMC-Ajuda.rtf"
+8 rtf "IMC-Sobre.rtf"
