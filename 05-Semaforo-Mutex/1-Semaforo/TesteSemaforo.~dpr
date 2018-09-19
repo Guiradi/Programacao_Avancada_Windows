@@ -1,0 +1,13 @@
+program TesteSemaforo;
+
+uses
+  Forms,
+  Unit1 in 'Unit1.pas' {Form1TesteSemaforo1234};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1TesteSemaforo1234, Form1TesteSemaforo1234);
+  Application.Run;
+end.

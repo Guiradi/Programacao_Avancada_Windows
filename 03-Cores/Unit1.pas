@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls;
+  Dialogs, StdCtrls, ExtCtrls, XPMan;
 
 type
   TForm1 = class(TForm)
@@ -20,6 +20,7 @@ type
     CheckBox1: TCheckBox;
     Panel1: TPanel;
     ColorDialog1: TColorDialog;
+    XPManifest1: TXPManifest;
     procedure FormShow(Sender: TObject);
     procedure ScrollBar1Change(Sender: TObject);
     procedure ScrollBar2Change(Sender: TObject);

@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, StdCtrls, ComCtrls, ExtCtrls;
+  Dialogs, Menus, StdCtrls, ComCtrls, ExtCtrls, XPMan;
 
 type
   TForm1 = class(TForm)
@@ -34,6 +34,7 @@ type
     OpenDialog1: TOpenDialog;
     SaveDialog1: TSaveDialog;
     Timer1: TTimer;
+    XPManifest1: TXPManifest;
     procedure FormShow(Sender: TObject);
     procedure FormResize(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
@@ -80,8 +81,8 @@ end;
 
 procedure TForm1.FormResize(Sender: TObject);
 begin
-  StatusBar1.Panels[0].Width := (StatusBar1.Width-126) div 2;
-  StatusBar1.Panels[1].Width := (StatusBar1.Width-126) div 2;
+  StatusBar1.Panels[0].Width := (StatusBar1.Width-125) div 2;
+  StatusBar1.Panels[1].Width := (StatusBar1.Width-125) div 2;
 end;
 
 procedure TForm1.Timer1Timer(Sender: TObject);

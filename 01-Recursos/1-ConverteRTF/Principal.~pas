@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls, XPMan;
+  Dialogs, StdCtrls, ComCtrls;
 
 type
   TForm1 = class(TForm)
@@ -13,7 +13,6 @@ type
     OpenDialog1: TOpenDialog;
     SaveDialog1: TSaveDialog;
     RichEdit1: TRichEdit;
-    XPManifest1: TXPManifest;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
 

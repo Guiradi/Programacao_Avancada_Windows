@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 599
-  Top = 274
+  Left = 590
+  Top = 288
   BorderStyle = bsDialog
   Caption = 'Cores'
   ClientHeight = 105
@@ -101,11 +101,16 @@ object Form1: TForm1
     Top = 8
     Width = 65
     Height = 65
+    BorderWidth = 35
     TabOrder = 4
     OnClick = Panel1Click
   end
   object ColorDialog1: TColorDialog
     Left = 272
+    Top = 120
+  end
+  object XPManifest1: TXPManifest
+    Left = 304
     Top = 120
   end
 end

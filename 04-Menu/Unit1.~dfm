@@ -92,9 +92,11 @@ object Form1: TForm1
       end
       object Item51: TMenuItem
         Caption = 'Item 5'
+        OnClick = Item51Click
       end
       object Item61: TMenuItem
         Caption = 'Item 6'
+        OnClick = Item61Click
       end
     end
     object Ajuda1: TMenuItem

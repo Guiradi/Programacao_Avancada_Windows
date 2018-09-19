@@ -1,45 +1,46 @@
 [Closed Files]
-File_0=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\03-Cores\Unit1.pas',0,1,68,1,95,1,0
-File_1=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\Principal.pas',0,1,79,19,102,1,0
-File_2=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\3-IMC-Forma-WideString\Principal.pas',0,1,45,31,89,1,0
-File_3=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas',0,1,145,27,160,1,0
-File_4=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Win\ShellAPI.pas',0,1,612,1,665,0,0
-File_5=SourceModule,'C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas',0,1,28,14,49,1,0
-File_6=SourceModule,'C:\PAW\Teste\Unit1.pas',0,1,1,45,13,0,0
-File_7=SourceModule,'c:\program files (x86)\borland\delphi7\source\vcl\Dialogs.pas',0,1,2106,1,2122,0,0
-File_8=SourceModule,'C:\PAW\Teste\Unit1.dfm',0,1,1,1,1,0,0
+File_0=SourceModule,'C:\PAW\Teste\Unit1.pas',0,1,1,45,13,0,0
+File_1=SourceModule,'c:\program files (x86)\borland\delphi7\source\vcl\Dialogs.pas',0,1,2106,1,2122,0,0
+File_2=SourceModule,'C:\PAW\Teste\Unit1.dfm',0,1,1,1,1,0,0
 
 [Modules]
-Module0=C:\GitHub\Programacao_Avancada_Windows\03-Cores\cores.dpr
-Count=1
+Module0=C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas
+Module1=C:\PAW\01-Recursos\1-ConverteRTF\ConverteRTF.dpr
+Count=2
 EditWindowCount=1
 
-[C:\GitHub\Programacao_Avancada_Windows\03-Cores\cores.dpr]
+[C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\PAW\01-Recursos\1-ConverteRTF\ConverteRTF.dpr]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\GitHub\Programacao_Avancada_Windows\04-Menu\ProjectGroup1.bpg]
+[C:\Users\guira\Documents\cmder\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=1
-CurrentView=0
+ViewCount=2
+CurrentView=1
 View0=0
+View1=1
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=228
-Top=120
+Left=242
+Top=109
 Width=1130
-Height=626
+Height=658
 MaxLeft=-8
 MaxTop=107
 ClientWidth=1114
-ClientHeight=587
+ClientHeight=619
 LeftPanelSize=140
 LeftPanelClients=CodeExplorer@EditWindow0
 LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
@@ -49,10 +50,17 @@ BottomPanelClients=MessageView@EditWindow0
 BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
 
 [View0]
-Module=C:\GitHub\Programacao_Avancada_Windows\03-Cores\cores.dpr
-CursorX=1
-CursorY=1
+Module=C:\PAW\01-Recursos\1-ConverteRTF\ConverteRTF.dpr
+CursorX=28
+CursorY=12
 TopLine=1
+LeftCol=1
+
+[View1]
+Module=C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas
+CursorX=14
+CursorY=49
+TopLine=28
 LeftCol=1
 
 [Watches]
@@ -70,7 +78,7 @@ Visible=1
 State=2
 Left=6
 Top=2
-Width=1360
+Width=1304
 Height=123
 MaxLeft=-1
 MaxTop=-1
@@ -114,18 +122,18 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=188
-Height=550
+Width=224
+Height=610
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=188
-ClientHeight=550
+ClientWidth=224
+ClientHeight=610
 TBDockHeight=652
 LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=
+SelectedItem=Caption
 ExpandedItems=
 HiddenCategories=
 
@@ -135,12 +143,12 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=188
-Height=550
+Width=224
+Height=610
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=188
-ClientHeight=550
+ClientWidth=224
+ClientHeight=610
 TBDockHeight=256
 LRDockWidth=190
 Dockable=1
@@ -152,11 +160,11 @@ State=0
 Left=0
 Top=12
 Width=140
-Height=575
+Height=607
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=140
-ClientHeight=575
+ClientHeight=607
 TBDockHeight=305
 LRDockWidth=140
 Dockable=1
@@ -185,14 +193,14 @@ DockSiteType=1
 Create=1
 Visible=1
 State=0
-Left=2
-Top=120
-Width=231
-Height=597
+Left=-12
+Top=109
+Width=267
+Height=657
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=215
-ClientHeight=558
+ClientWidth=251
+ClientHeight=618
 TBDockHeight=664
 LRDockWidth=195
 Dockable=1

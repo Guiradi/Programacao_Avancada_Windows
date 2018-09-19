@@ -1,33 +1,41 @@
 [Closed Files]
-File_0=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Win\ShellAPI.pas',0,1,612,1,665,0,0
-File_1=SourceModule,'C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas',0,1,28,14,49,1,0
-File_2=SourceModule,'C:\PAW\Teste\Unit1.pas',0,1,1,45,13,0,0
-File_3=SourceModule,'c:\program files (x86)\borland\delphi7\source\vcl\Dialogs.pas',0,1,2106,1,2122,0,0
-File_4=SourceModule,'C:\PAW\Teste\Unit1.dfm',0,1,1,1,1,0,0
+File_0=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\03-Cores\Unit1.pas',0,1,67,25,94,1,0
+File_1=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\4-IMC-Res\Principal.pas',0,1,79,19,102,1,0
+File_2=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\3-IMC-Forma-WideString\Principal.pas',0,1,45,31,89,1,0
+File_3=SourceModule,'C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas',0,1,145,27,160,1,0
+File_4=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Win\ShellAPI.pas',0,1,612,1,665,0,0
+File_5=SourceModule,'C:\PAW\01-Recursos\1-ConverteRTF\Principal.pas',0,1,28,14,49,1,0
+File_6=SourceModule,'C:\PAW\Teste\Unit1.pas',0,1,1,45,13,0,0
+File_7=SourceModule,'c:\program files (x86)\borland\delphi7\source\vcl\Dialogs.pas',0,1,2106,1,2122,0,0
+File_8=SourceModule,'C:\PAW\Teste\Unit1.dfm',0,1,1,1,1,0,0
 
 [Modules]
-Module0=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas
-Module1=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\IMC.dpr
+Module0=C:\GitHub\Programacao_Avancada_Windows\04-Menu\Unit1.pas
+Module1=C:\GitHub\Programacao_Avancada_Windows\04-Menu\fig\Unit2.pas
 Count=2
 EditWindowCount=1
 
-[C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas]
+[C:\GitHub\Programacao_Avancada_Windows\04-Menu\Unit1.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\IMC.dpr]
+[C:\GitHub\Programacao_Avancada_Windows\04-Menu\fig\Unit2.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Users\guira\Documents\cmder\ProjectGroup1.bpg]
+[C:\GitHub\Programacao_Avancada_Windows\04-Menu\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\GitHub\Programacao_Avancada_Windows\04-Menu\ExemploMenu.dpr]
 FormState=0
 FormOnTop=0
 
 [EditWindow0]
 ViewCount=2
-CurrentView=1
+CurrentView=0
 View0=0
 View1=1
 CodeExplorer=CodeExplorer@EditWindow0
@@ -35,14 +43,14 @@ MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=242
-Top=109
-Width=1130
-Height=658
+Left=297
+Top=127
+Width=1053
+Height=597
 MaxLeft=-8
 MaxTop=107
-ClientWidth=1114
-ClientHeight=619
+ClientWidth=1037
+ClientHeight=558
 LeftPanelSize=140
 LeftPanelClients=CodeExplorer@EditWindow0
 LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
@@ -52,17 +60,17 @@ BottomPanelClients=MessageView@EditWindow0
 BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
 
 [View0]
-Module=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\IMC.dpr
-CursorX=9
-CursorY=13
-TopLine=1
+Module=C:\GitHub\Programacao_Avancada_Windows\04-Menu\Unit1.pas
+CursorX=54
+CursorY=85
+TopLine=65
 LeftCol=1
 
 [View1]
-Module=C:\GitHub\Programacao_Avancada_Windows\01-Recursos\2-IMC-DadosExternos\Principal.pas
-CursorX=27
-CursorY=160
-TopLine=145
+Module=C:\GitHub\Programacao_Avancada_Windows\04-Menu\fig\Unit2.pas
+CursorX=1
+CursorY=1
+TopLine=1
 LeftCol=1
 
 [Watches]
@@ -124,12 +132,12 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=224
-Height=610
+Width=197
+Height=583
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=224
-ClientHeight=610
+ClientWidth=197
+ClientHeight=583
 TBDockHeight=652
 LRDockWidth=190
 Dockable=1
@@ -145,12 +153,12 @@ Visible=1
 State=0
 Left=0
 Top=0
-Width=224
-Height=610
+Width=197
+Height=583
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=224
-ClientHeight=610
+ClientWidth=197
+ClientHeight=583
 TBDockHeight=256
 LRDockWidth=190
 Dockable=1
@@ -162,11 +170,11 @@ State=0
 Left=0
 Top=12
 Width=140
-Height=607
+Height=546
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=140
-ClientHeight=607
+ClientHeight=546
 TBDockHeight=305
 LRDockWidth=140
 Dockable=1
@@ -195,14 +203,14 @@ DockSiteType=1
 Create=1
 Visible=1
 State=0
-Left=-12
-Top=109
-Width=267
-Height=657
+Left=36
+Top=124
+Width=240
+Height=630
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=251
-ClientHeight=618
+ClientWidth=224
+ClientHeight=591
 TBDockHeight=664
 LRDockWidth=195
 Dockable=1

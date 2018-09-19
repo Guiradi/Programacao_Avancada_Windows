@@ -47,6 +47,8 @@ type
     procedure Item21Click(Sender: TObject);
     procedure Item31Click(Sender: TObject);
     procedure Item41Click(Sender: TObject);
+    procedure Item51Click(Sender: TObject);
+    procedure Item61Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -78,8 +80,8 @@ end;
 
 procedure TForm1.FormResize(Sender: TObject);
 begin
-  StatusBar1.Panels[0].Width := (StatusBar1.Width-126) div 2;
-  StatusBar1.Panels[1].Width := (StatusBar1.Width-126) div 2;
+  StatusBar1.Panels[0].Width := (StatusBar1.Width-125) div 2;
+  StatusBar1.Panels[1].Width := (StatusBar1.Width-125) div 2;
 end;
 
 procedure TForm1.Timer1Timer(Sender: TObject);
@@ -182,6 +184,35 @@ begin
   begin
     Item41.Checked := True;
     MessageDlg('Item 4 marcado', mtInformation, [mbOk], 0);
+  end;
+end;
+
+procedure TForm1.Item51Click(Sender: TObject);
+begin
+  if Item51.Checked then
+  begin
+    Item51.Checked := False;
+    MessageDlg('Item 5 desmarcado', mtInformation, [mbOk], 0);
+  end
+  else
+  begin
+    Item51.Checked := True;
+    MessageDlg('Item 5 marcado', mtInformation, [mbOk], 0);
+  end;
+
+end;
+
+procedure TForm1.Item61Click(Sender: TObject);
+begin
+  if Item61.Checked then
+  begin
+    Item61.Checked := False;
+    MessageDlg('Item 6 desmarcado', mtInformation, [mbOk], 0);
+  end
+  else
+  begin
+    Item61.Checked := True;
+    MessageDlg('Item 6 marcado', mtInformation, [mbOk], 0);
   end;
 end;
 
