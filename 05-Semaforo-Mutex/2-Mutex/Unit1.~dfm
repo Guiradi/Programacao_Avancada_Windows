@@ -2,7 +2,7 @@ object Form1TesteSemaforo1234: TForm1TesteSemaforo1234
   Left = 422
   Top = 184
   BorderStyle = bsDialog
-  Caption = 'Teste Mutex - s'#243' uma inst'#226'ncia'
+  Caption = 'Teste Sem'#225'foro - s'#243' uma inst'#226'ncia'
   ClientHeight = 202
   ClientWidth = 304
   Color = clBtnFace
