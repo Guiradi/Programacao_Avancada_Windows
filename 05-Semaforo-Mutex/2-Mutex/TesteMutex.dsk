@@ -19,14 +19,14 @@ EditWindowCount=1
 [C:\GitHub\Programacao_Avancada_Windows\05-Semaforo-Mutex\2-Mutex\Unit1.pas]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=1
+FormOnTop=0
 
 [C:\GitHub\Programacao_Avancada_Windows\05-Semaforo-Mutex\2-Mutex\TesteMutex.dpr]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Users\guira\Documents\cmder\ProjectGroup1.bpg]
+[C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
@@ -140,7 +140,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=Caption
+SelectedItem=ClientHeight
 ExpandedItems=
 HiddenCategories=
 

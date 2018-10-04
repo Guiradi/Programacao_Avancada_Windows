@@ -19,7 +19,7 @@ EditWindowCount=1
 [C:\GitHub\Programacao_Avancada_Windows\05-Semaforo-Mutex\2-Mutex\Unit1.pas]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=0
+FormOnTop=1
 
 [C:\GitHub\Programacao_Avancada_Windows\05-Semaforo-Mutex\2-Mutex\TesteMutex.dpr]
 ModuleType=SourceModule
@@ -58,8 +58,8 @@ BottomPanelData=00000400010000000B0000004D65737361676556696577270400000000000002
 
 [View0]
 Module=C:\GitHub\Programacao_Avancada_Windows\05-Semaforo-Mutex\2-Mutex\Unit1.pas
-CursorX=1
-CursorY=1
+CursorX=28
+CursorY=21
 TopLine=7
 LeftCol=1
 
@@ -140,7 +140,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=ClientHeight
+SelectedItem=Caption
 ExpandedItems=
 HiddenCategories=
 
